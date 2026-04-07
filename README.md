@@ -1,23 +1,24 @@
-## Volume fixes for Facebook and Instagram
-> userscript
+# Remember Volume for Facebook & Instagram
 
-Fix the loudness from those Facebook and Instagram, especially those reels which you can't change the volume level.
+A userscript that remembers your preferred video volume on Facebook and Instagram. No more jump scares when unmuting a video — your chosen volume is saved and applied automatically.
 
-If you afraid of those very loud videos from Facebook and Instagram, or sometime when you already set the volume of a video, then suddently it just reset for no reason and "screams" into your ears. Then this userscript is for you.
+## The Problem
 
-## Features
-- Auto set the volume of all videos to the previous value (default 50%).
-- "Remember" the volume value that you have set, and apply it to all other videos.
+Facebook and Instagram reset video volume to 100% every time you unmute a video. This script intercepts that behavior and restores your last-used volume level across all videos.
 
-## Instruction
+## Installation
 
-#### Step 1: Install script manager:
-- Firefox: [Greasemonkey](https://addons.mozilla.org/firefox/addon/greasemonkey/)
-- Chromium: [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) or [Violentmonkey](https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag)
+1. Install a userscript manager:
+   - [Tampermonkey](https://www.tampermonkey.net/) (Chrome, Firefox, Edge, Safari)
+   - [Violentmonkey](https://violentmonkey.github.io/) (Chrome, Firefox, Edge)
+2. [Click here to install the script](https://github.com/ttoan12/remember-volume-for-facebook-and-instagram/raw/main/remember-volume-for-facebook-and-instagram.user.js)
 
-#### Step 2: Install script:
-- [Install](https://github.com/ttoan12/volume-fixes-for-facebook-and-instagram/raw/main/volume-fixes-for-facebook-and-instagram.user.js) *from github.com*
+## How It Works
 
-## Usage
-- Go to [Facebook](https://www.facebook.com) or [Instagram](https://www.instagram.com)
-- Start playing any video
+- When you adjust the volume on any video, the script saves that level.
+- Every new video that loads will start at your saved volume.
+- If Facebook/Instagram tries to reset the volume to 100%, the script overrides it.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
