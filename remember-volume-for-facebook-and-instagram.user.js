@@ -2,10 +2,10 @@
 // @name         Remember Volume for Facebook & Instagram
 // @description  Remembers and applies your preferred volume to all videos on Facebook and Instagram
 // @version      1.0.0
-// @license      MIT
 // @namespace    https://github.com/ttoan12
 // @homepageURL  https://github.com/ttoan12/remember-volume-for-facebook-and-instagram
 // @supportURL   https://github.com/ttoan12/remember-volume-for-facebook-and-instagram/issues
+// @icon         https://github.com/ttoan12/remember-volume-for-facebook-and-instagram/raw/refs/heads/main/icon.svg
 
 // @match        https://www.facebook.com/*
 // @match        https://www.instagram.com/*
